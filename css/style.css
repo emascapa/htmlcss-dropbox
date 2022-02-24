@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     /* CANCELLAMI ALLA FINE */
-    border: 1px solid rgb(75, 71, 71);
-    border-radius: 10px;
+    /* border: 1px solid rgb(75, 71, 71); */
+    /* border-radius: 10px; */
     /* CANCELLAMI ALLA FINE  */
 }
 
@@ -53,12 +53,20 @@ body {
     height: 100px;
 }
 
-.debug-height600 {
-    height: 600px;
+.debug-height200 {
+    height: 200px;
 }
 
 .debug-height300 {
     height: 300px;
+}
+
+.debug-height400 {
+    height: 400px;
+}
+
+.debug-height600 {
+    height: 600px;
 }
 
 /* UTILITY */
@@ -67,6 +75,11 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+.col_30 {
+    width: 30%;
+    float: left;
 }
 
 .col_33 {
