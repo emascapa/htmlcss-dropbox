@@ -2,5 +2,136 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* CANCELLAMI ALLA FINE */
+    border: 1px solid rgb(75, 71, 71);
+    border-radius: 10px;
+    /* CANCELLAMI ALLA FINE  */
 }
+
+
+:root {
+    --dark: #000000;
+    --btn-theme: #0061FF; 
+    --alternative-font: #61082B;
+    --alternative-bg1: #B4D0E7;
+    --alternative-bg2: #F5F5F5;
+    --light: #FFFFFF; 
+}
+
+body {
+    background-color: white;
+}
+
+/* DEBUG */
+
+.debug1 {
+    background-color: lightcoral;
+    height: 100%;
+}
+
+.debug2 {
+    background-color: lightgreen;
+    height: 100%;
+}
+
+.debug3 {
+    background-color: lightseagreen;
+    height: 100%;
+}
+
+.debug4 {
+    background-color: lightslategray;
+    height: 100%;
+}
+
+.debug5 {
+    background-color: lightcyan;
+    height: 100%;
+}
+
+.debug-height100 {
+    height: 100px;
+}
+
+.debug-height600 {
+    height: 600px;
+}
+
+.debug-height300 {
+    height: 300px;
+}
+
+/* UTILITY */
+
+.clearfix_rule::after { 
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col_33 {
+    width: calc(100% / 3);
+    float: left;
+}
+
+.col_40 {
+    width: 40%;
+    float: left;
+}
+
+.col_50 {
+    width: 50%;
+    float: left;
+}
+
+.col_60 {
+    width: 60%;
+    float: left;
+}
+
+.col_100 {
+    width: 100%;
+    float: left;
+}
+
+.container_big {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container_small {
+    width: 65%;
+    margin: 4rem auto;
+}
+
+
+
+/* HEADER */
+
+#site_header {
+    height: 60px;
+    width: 100%;
+    background-color: var(--light);
+}
+
+/* SITE MAIN */
+
+.hero_section {
+    height: 500px;
+}
+
+/* .section_text {
+    height: 100px;
+} */
+
+/* .row {
+    
+} */
+
+
+
+
+
+
+
 
