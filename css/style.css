@@ -186,9 +186,18 @@ a {
 
 .btn {
     padding: 0.3rem 1rem;
+    display: inline-block;
+}
+
+.btn-1 {
     background-color: var(--btn-theme);
     color: var(--light);
-    display: inline-block;
+}
+
+.btn-2 {
+    background-color: var(--light);
+    color: var(--dark);
+    border: 1px solid var(--dark);
 }
 
 
@@ -386,6 +395,29 @@ a {
 }
 
 /* #endregion BUSINESS PLAN */
+
+/* #region PARTNERS */
+
+.partners img {
+    width: 100%;
+}
+
+.partners .col_40 {
+    padding: 3rem;
+}
+
+.partners h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.partners p {
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+/* #endregion PARTNERS */
 
 /* #endregion SITE MAIN */
 
