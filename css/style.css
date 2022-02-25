@@ -200,6 +200,11 @@ a {
     border: 1px solid var(--dark);
 }
 
+.link-2 {
+    color: var(--btn-theme);
+    text-decoration: underline;
+}
+
 
 /* #endregion UTILITY */
 
@@ -295,25 +300,6 @@ a {
 }
 
 
-
-
-/* .business_plan .col_30:nth-child(1),
-.business_plan .col_30:nth-child(2),
-.business_plan .col_30:nth-child(3),
-.business_plan .col_100 {
-    border: 1px solid var(--border-color);
-}
-
-.business_plan .col_30:nth-child(1),
-.business_plan .col_30:nth-child(2),
-.business_plan .col_30:nth-child(3),
-.business_plan .col_5 {
-   height: 800px;
-} */
-
-
-
-
 .row.priority > .col_30,
 .business_plan .col_100 {
     border: 1px solid var(--border-color);
@@ -369,10 +355,10 @@ a {
     font-size: 0.8rem;
 }
 
-.buy > a {
+/* .buy > a {
     color: var(--btn-theme);
     text-decoration: underline;
-}
+} */
 
 .line {
     width: 15%;
@@ -427,6 +413,10 @@ a {
 .dropbox_business h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+}
+
+.dropbox_business a {
+    font-size: 0.8rem;
 }
 
 /* #endregion PARTNERS / DROPBOX-BUSINESS  */
