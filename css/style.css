@@ -396,9 +396,10 @@ a {
 
 /* #endregion BUSINESS PLAN */
 
-/* #region PARTNERS */
+/* #region PARTNERS / DROPBOX-BUSINESS */
 
-.partners img {
+.partners img,
+.dropbox_business img {
     width: 100%;
 }
 
@@ -406,18 +407,29 @@ a {
     padding: 3rem;
 }
 
-.partners h3 {
+.partners h3,
+.dropbox_business h3 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
-.partners p {
+.partners p,
+.dropbox_business p  {
     line-height: 1.5rem;
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
 }
 
-/* #endregion PARTNERS */
+.dropbox_business .col_33 {
+    padding: 1.5rem;
+}
+
+.dropbox_business h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* #endregion PARTNERS / DROPBOX-BUSINESS  */
 
 /* #endregion SITE MAIN */
 
