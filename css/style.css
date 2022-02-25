@@ -210,10 +210,16 @@ a {
     vertical-align: middle;
 }
 
+#site_header .btn {
+    display: inline;
+}
+
 /* #endregion HEADER */
 
 
 /* #region SITE MAIN */
+
+/* #region HERO SECTION */
 
 .hero_section {
     height: 630px;
@@ -243,9 +249,14 @@ a {
     margin-top: 2rem;
 }
 
-/* .section_text {
-    height: 100px;
-} */
+.hero_section .text {
+    font-size: 0.7rem;
+}
+
+/* #endregion HERO SECTION */
+
+
+/* #endregion SITE MAIN */
 
 /* .row {
     
