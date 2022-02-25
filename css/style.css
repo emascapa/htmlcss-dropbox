@@ -12,10 +12,12 @@
 :root {
     --dark: #000000;
     --btn-theme: #0061FF; 
-    --alternative-font: #61082B;
+    --alternative-font1: #61082B;
     --alternative-bg1: #B4D0E7;
     --alternative-bg2: #F5F5F5;
     --light: #FFFFFF; 
+    --alternative-font2: #697986;
+    --border-color: #DEDEE0;
 
     --font: 'Open Sans', sans-serif;
 }
@@ -99,6 +101,11 @@ a {
 
 /* #endregion COMMENTAMI ALLA FINE */
 
+.col_5 {
+    width: 5%;
+    float: left;
+}
+
 .col_20 {
     width: 20%;
     float: left;
@@ -174,6 +181,7 @@ a {
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 4rem 0;
 }
 
 .btn {
@@ -224,6 +232,7 @@ a {
 .hero_section {
     height: 630px;
     background-color: var(--alternative-bg1);
+    margin-bottom: 3rem;
 }
 
 .hero_section h1 {
@@ -255,6 +264,128 @@ a {
 
 /* #endregion HERO SECTION */
 
+/* #region BUSINESS PLAN */
+
+.business_plan h2 {
+    margin: 2rem 0;
+    font-size: 2.5rem;
+}
+
+.pay-info {
+    line-height: 1rem;
+    margin: 2rem 0;
+}
+
+.pay-info input {
+    vertical-align: middle;
+}
+
+.pay-info label {
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+
+
+
+
+/* .business_plan .col_30:nth-child(1),
+.business_plan .col_30:nth-child(2),
+.business_plan .col_30:nth-child(3),
+.business_plan .col_100 {
+    border: 1px solid var(--border-color);
+}
+
+.business_plan .col_30:nth-child(1),
+.business_plan .col_30:nth-child(2),
+.business_plan .col_30:nth-child(3),
+.business_plan .col_5 {
+   height: 800px;
+} */
+
+
+
+
+.row.priority > .col_30,
+.business_plan .col_100 {
+    border: 1px solid var(--border-color);
+}
+
+.row.priority > .col_30,
+.business_plan .col_5 {
+   height: 800px;
+}
+
+.business_plan .col_100 {
+    margin-top: 3rem;
+}
+
+.type {
+    text-align: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.info {
+    padding: 1.5rem;
+}
+
+.info  h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.info  .price {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.info  .time {
+    font-size: 0.7rem;
+    color: var(--alternative-font2);
+    margin-bottom: 2rem;
+}
+
+.additional_info1, .additional_info2 {
+    margin: 2rem 0;
+}
+
+.additional_info1 >div,
+.additional_info2 >div {
+    margin: 1rem 0;
+    font-size: 0.8rem;
+}
+
+.buy {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.buy > a {
+    color: var(--btn-theme);
+    text-decoration: underline;
+}
+
+.line {
+    width: 15%;
+    margin-top: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.additional_info2 i {
+    color: var(--btn-theme);
+}
+
+.info.row .btn {
+    text-align: center;
+    width: 100%;
+}
+
+.solutions {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+
+/* #endregion BUSINESS PLAN */
 
 /* #endregion SITE MAIN */
 
