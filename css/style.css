@@ -19,6 +19,15 @@
     --alternative-font2: #697986;
     --border-color: #DEDEE0;
 
+    --design1: #A2D39B;
+    --design2: #61082B;
+    --design3: #0093CE;
+    --design4: #FF1C1C;
+    --design5: #D5001F;
+    --design6: #B4D0E7;
+    --design7: #0D2481;
+    --design8: #FFD830;
+
     --font: 'Open Sans', sans-serif;
 }
 
@@ -420,6 +429,85 @@ a {
 }
 
 /* #endregion PARTNERS / DROPBOX-BUSINESS  */
+
+/* #region DESIGN */
+
+.design {
+    background-color: var(--alternative-bg2);
+}
+
+.design .col_50 {
+    height: calc(100vw * 0.15);
+    line-height: calc(100vw * 0.15);
+    text-align: center;
+}
+
+
+.design.col_40 {
+    
+    padding: 3rem;
+
+}
+
+.design.col_40 img{
+    
+    width: 25%;
+
+}
+
+.design p {
+    
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
+
+.design .invert {
+    width: 50%;
+    filter: invert(1);
+    vertical-align: middle;
+}
+
+.design img:nth-child(5) {
+    width: 50%;
+    filter: invert(1);
+    vertical-align: middle;
+}
+
+.design1 {
+    background-color: var(--design1);
+}
+
+.design2 {
+    background-color: var(--design2);
+}
+
+.design3 {
+    background-color: var(--design3);
+}
+
+.design4 {
+    background-color: var(--design4);
+}
+
+.design5 {
+    background-color: var(--design5);
+}
+
+.design6 {
+    background-color: var(--design6);
+}
+
+.design7 {
+    background-color: var(--design7);
+}
+
+.design8 {
+    background-color: var(--design8);
+}
+
+
+
+/* #endregion DESIGN */
 
 /* #endregion SITE MAIN */
 
