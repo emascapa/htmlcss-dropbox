@@ -209,6 +209,13 @@ a {
     border: 1px solid var(--dark);
 }
 
+.btn-3 {
+    background-color: var(--light);
+    color: var(--dark);
+    width: 100%;
+    text-align: center;
+}
+
 .link-2 {
     color: var(--btn-theme);
     text-decoration: underline;
@@ -432,6 +439,7 @@ a {
 
 /* #region DESIGN */
 
+
 .design {
     background-color: var(--alternative-bg2);
 }
@@ -508,6 +516,25 @@ a {
 
 
 /* #endregion DESIGN */
+
+
+/* #region FREE TRIAL - FAQ */
+
+.free_trial {
+    background-color: var(--alternative-bg1);
+}
+
+.free_trial > .container_small {
+    padding: 8rem 0;
+}
+
+.free_trial h2 {
+    color: var(--alternative-font1);
+    font-size: 2.5rem;
+    padding-right: 30%;
+}
+
+/* #endregion FREE TRIAL - FAQ */
 
 /* #endregion SITE MAIN */
 
