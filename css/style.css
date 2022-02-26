@@ -150,6 +150,11 @@ a {
     float: left;
 }
 
+.col_95 {
+    width: 95%;
+    float: left;
+}
+
 .col_100 {
     width: 100%;
     float: left;
@@ -524,7 +529,8 @@ a {
     background-color: var(--alternative-bg1);
 }
 
-.free_trial > .container_small {
+.free_trial > .container_small,
+.faq > .container_small {
     padding: 8rem 0;
 }
 
@@ -533,6 +539,26 @@ a {
     font-size: 2.5rem;
     padding-right: 30%;
 }
+
+.faq {
+    background-color: var(--light);
+}
+
+.faq h3 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.faq > .container_small > .row {
+    line-height: 6rem;
+    border-top: 1px solid lightgrey;
+}
+
+.faq .margin-bottom {
+    border-bottom: 1px solid lightgrey;
+}
+
+
 
 /* #endregion FREE TRIAL - FAQ */
 
