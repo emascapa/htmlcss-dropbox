@@ -206,6 +206,7 @@ a {
 
 #site_header li {
     display: inline-block;
+    padding: 0 1rem;
 }
 
 #site_header img {
@@ -215,6 +216,33 @@ a {
 #site_header .btn {
     display: inline;
 }
+
+#site_header>nav>.col_50>ul>li:hover {
+    background-color: lightgrey;
+    position: relative;
+}
+
+.hidden_menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: lightgrey;
+    line-height: 40px;
+    visibility: hidden;
+
+}
+
+.hidden_menu li,
+.hidden_menu ul {
+    display: block;
+}
+
+
+#site_header>nav>.col_50>ul>li:hover .hidden_menu {
+    visibility: visible;
+}
+
+
 
 /* #endregion HEADER */
 
