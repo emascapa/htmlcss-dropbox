@@ -60,11 +60,11 @@ a {
 }
 
 /* #region COMMENTAMI ALLA FINE */
-.clearfix_rule::after { 
+/* .clearfix_rule::after { 
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 /* #endregion COMMENTAMI ALLA FINE */
 
@@ -184,6 +184,10 @@ a {
     text-decoration: underline;
 }
 
+.display_ib {
+    display: inline-block;
+}
+
 
 /* #endregion UTILITY */
 
@@ -200,12 +204,10 @@ a {
 
 #site_header ul,
 #site_footer ul {
-    display: inline-block;
     list-style: none;
 }
 
 #site_header li {
-    display: inline-block;
     padding: 0 1rem;
 }
 
@@ -545,6 +547,14 @@ a {
 
 .faq .margin-bottom {
     border-bottom: 2px solid var(--border-color);
+}
+
+.faq .answer {
+    display: none;
+}
+
+.faq>.container_small>.row:hover .answer {
+    display: block;
 }
 
 
