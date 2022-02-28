@@ -228,6 +228,7 @@ a {
     position: absolute;
     top: 100%;
     left: 0;
+    width: 400px;
     background-color: lightgrey;
     line-height: 40px;
     visibility: hidden;
